@@ -3,32 +3,64 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Tire Service y Suspensión automotriz</title>
+  <title>Tire Service y Suspensión Automotriz</title>
+  <meta name="description" content="Especialistas en llantas y suspensión automotriz. Venta, cambio y mantenimiento con servicio profesional en la Ciudad de México.">
   <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    body {
+      padding-top: 60px; /* Compensar el nav fijo */
+    }
+  </style>
 </head>
 <body class="bg-gray-100 text-gray-900 font-sans">
+  
   <!-- Menú de navegación -->
   <nav class="bg-gray-900/90 backdrop-blur-md text-white fixed w-full z-50 top-0 left-0 shadow-lg">
     <div class="flex justify-start md:justify-center gap-4 md:gap-6 py-3 px-2 overflow-x-auto whitespace-nowrap w-full">
-      <a href="#bienvenida" class="flex items-center gap-1 px-3 py-1 rounded-lg hover:bg-blue-600 hover:text-yellow-300 transition duration-300"><svg xmlns='http://www.w3.org/2000/svg' class='h-5 w-5' fill='none' viewBox='0 0 24 24' stroke='currentColor'><path stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M3 12l2-2m0 0l7-7 7 7M13 5v6h6'/></svg>Bienvenidos</a>
-      <a href="#conocenos" class="flex items-center gap-1 px-3 py-1 rounded-lg hover:bg-blue-600 hover:text-yellow-300 transition duration-300"><svg xmlns='http://www.w3.org/2000/svg' class='h-5 w-5' fill='none' viewBox='0 0 24 24' stroke='currentColor'><path stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M5.121 17.804A13.937 13.937 0 0112 15c2.485 0 4.797.657 6.879 1.804M15 11a3 3 0 11-6 0 3 3 0 016 0z'/></svg>Conócenos</a>
-      <a href="#productos" class="flex items-center gap-1 px-3 py-1 rounded-lg hover:bg-blue-600 hover:text-yellow-300 transition duration-300"><svg xmlns='http://www.w3.org/2000/svg' class='h-5 w-5' fill='none' viewBox='0 0 24 24' stroke='currentColor'><path stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M20 13V7a2 2 0 00-2-2H6a2 2 0 00-2 2v6m16 0a2 2 0 01-2 2H6a2 2 0 01-2-2m16 0V7m0 6v6a2 2 0 01-2 2H6a2 2 0 01-2-2v-6'/></svg>Productos</a>
-      <a href="#servicios" class="flex items-center gap-1 px-3 py-1 rounded-lg hover:bg-blue-600 hover:text-yellow-300 transition duration-300"><svg xmlns='http://www.w3.org/2000/svg' class='h-5 w-5' fill='none' viewBox='0 0 24 24' stroke='currentColor'><path stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M9.75 17L9 21h6l-.75-4M4 4h16v2a2 2 0 01-2 2H6a2 2 0 01-2-2V4z'/></svg>Servicios</a>
-      <a href="#cotizacion" class="flex items-center gap-1 px-3 py-1 rounded-lg hover:bg-green-600 hover:text-yellow-300 transition duration-300"><svg xmlns='http://www.w3.org/2000/svg' class='h-5 w-5' fill='none' viewBox='0 0 24 24' stroke='currentColor'><path stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M17 9V7a5 5 0 00-10 0v2a2 2 0 00-2 2v5a2 2 0 002 2h10a2 2 0 002-2v-5a2 2 0 00-2-2z'/></svg>Cotización</a>
+      <a href="#bienvenida" aria-label="Ir a Bienvenida" class="flex items-center gap-1 px-3 py-1 rounded-lg hover:bg-blue-600 hover:text-yellow-300 transition duration-300">
+        <svg aria-hidden="true" xmlns='http://www.w3.org/2000/svg' class='h-5 w-5' fill='none' viewBox='0 0 24 24' stroke='currentColor'>
+          <path stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M3 12l2-2m0 0l7-7 7 7M13 5v6h6'/>
+        </svg>
+        Bienvenidos
+      </a>
+      <a href="#conocenos" aria-label="Ir a Conócenos" class="flex items-center gap-1 px-3 py-1 rounded-lg hover:bg-blue-600 hover:text-yellow-300 transition duration-300">
+        <svg aria-hidden="true" xmlns='http://www.w3.org/2000/svg' class='h-5 w-5' fill='none' viewBox='0 0 24 24' stroke='currentColor'>
+          <path stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M5.121 17.804A13.937 13.937 0 0112 15c2.485 0 4.797.657 6.879 1.804M15 11a3 3 0 11-6 0 3 3 0 016 0z'/>
+        </svg>
+        Conócenos
+      </a>
+      <a href="#productos" aria-label="Ir a Productos" class="flex items-center gap-1 px-3 py-1 rounded-lg hover:bg-blue-600 hover:text-yellow-300 transition duration-300">
+        <svg aria-hidden="true" xmlns='http://www.w3.org/2000/svg' class='h-5 w-5' fill='none' viewBox='0 0 24 24' stroke='currentColor'>
+          <path stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M20 13V7a2 2 0 00-2-2H6a2 2 0 00-2 2v6m16 0a2 2 0 01-2 2H6a2 2 0 01-2-2m16 0V7m0 6v6a2 2 0 01-2 2H6a2 2 0 01-2-2v-6'/>
+        </svg>
+        Productos
+      </a>
+      <a href="#servicios" aria-label="Ir a Servicios" class="flex items-center gap-1 px-3 py-1 rounded-lg hover:bg-blue-600 hover:text-yellow-300 transition duration-300">
+        <svg aria-hidden="true" xmlns='http://www.w3.org/2000/svg' class='h-5 w-5' fill='none' viewBox='0 0 24 24' stroke='currentColor'>
+          <path stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M9.75 17L9 21h6l-.75-4M4 4h16v2a2 2 0 01-2 2H6a2 2 0 01-2-2V4z'/>
+        </svg>
+        Servicios
+      </a>
+      <a href="#cotizacion" aria-label="Ir a Cotización" class="flex items-center gap-1 px-3 py-1 rounded-lg hover:bg-green-600 hover:text-yellow-300 transition duration-300">
+        <svg aria-hidden="true" xmlns='http://www.w3.org/2000/svg' class='h-5 w-5' fill='none' viewBox='0 0 24 24' stroke='currentColor'>
+          <path stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M17 9V7a5 5 0 00-10 0v2a2 2 0 00-2 2v5a2 2 0 002 2h10a2 2 0 002-2v-5a2 2 0 00-2-2z'/>
+        </svg>
+        Cotización
+      </a>
     </div>
   </nav>
-  <div class="h-6"></div> <!-- Espacio reducido para el menú fijo -->
 
   <div class="flex flex-col min-h-screen mt-0">
+    
     <!-- Bienvenida -->
-    <section id="bienvenida" class="py-8 w-full"> <!-- Espacio vertical reducido -->
+    <section id="bienvenida" class="py-8 w-full">
       <header class="w-full bg-gradient-to-r from-gray-900 via-gray-800 to-gray-700 text-white py-12 shadow-2xl mb-8">
         <div class="flex flex-col md:flex-row items-center justify-between max-w-5xl mx-auto px-4">
           <div class="md:w-1/3 flex justify-center mt-6 md:mt-0 order-1 md:order-none">
             <img src="assets/taller.jpeg" alt="Taller automotriz" class="w-40 h-40 object-cover rounded-2xl shadow-2xl border-4 border-gray-800" />
           </div>
           <div class="md:w-2/3 text-center md:text-left order-2 md:order-none">
-            <h1 class="text-5xl font-extrabold tracking-tight drop-shadow-lg mb-4">Tire Service y Suspensión automotriz</h1>
+            <h1 class="text-5xl font-extrabold tracking-tight drop-shadow-lg mb-4">Tire Service y Suspensión Automotriz</h1>
             <p class="mt-2 text-2xl italic text-yellow-300 drop-shadow-lg">"La mejor atención para tus llantas y suspensión automotriz"</p>
           </div>
         </div>
@@ -40,72 +72,82 @@
     </section>
 
     <!-- Conócenos -->
-    <section id="conocenos" class="bg-gradient-to-r from-gray-900 via-gray-800 to-gray-700 py-12 shadow-inner"> <!-- Espacio vertical reducido -->
+    <section id="conocenos" class="bg-gradient-to-r from-gray-900 via-gray-800 to-gray-700 py-12 shadow-inner">
       <div class="container mx-auto px-6 text-center">
-            <h2 class="text-3xl font-bold text-white">Conócenos</h2>
-            <div class="flex flex-col md:flex-row items-center justify-center mt-6 gap-8">
-              <img src="assets/taller.jpeg" alt="Foto del taller" class="w-full md:w-1/2 rounded-2xl shadow-2xl object-cover max-h-80 border-4 border-gray-800">
-              <p class="mt-4 text-lg md:mt-0 md:text-left text-white">Tu auto merece el mejor cuidado. Con años de experiencia, ofrecemos mantenimiento integral especializado en llantas y suspensión. Nuestro equipo de profesionales te brinda soluciones rápidas, efectivas y con la calidad que asegura tu tranquilidad en cada viaje.</p>
-            </div>
+        <h2 class="text-3xl font-bold text-white">Conócenos</h2>
+        <div class="flex flex-col md:flex-row items-center justify-center mt-6 gap-8">
+          <img src="assets/taller.jpeg" alt="Foto del taller" class="w-full md:w-1/2 rounded-2xl shadow-2xl object-cover max-h-80 border-4 border-gray-800">
+          <p class="mt-4 text-lg md:mt-0 md:text-left text-white">Tu auto merece el mejor cuidado. Con años de experiencia, ofrecemos mantenimiento integral especializado en llantas y suspensión. Nuestro equipo de profesionales te brinda soluciones rápidas, efectivas y con la calidad que asegura tu tranquilidad en cada viaje.</p>
+        </div>
       </div>
     </section>
 
-    <!-- Nuestros productos -->
-    <section id="productos" class="py-12 container mx-auto px-6"> <!-- Espacio vertical reducido -->
-  <h2 class="text-3xl font-bold text-blue-900 text-center">Nuestros Productos</h2>
-  <p class="text-center mt-2 text-lg">Distribuimos llantas de las marcas más reconocidas y confiables.</p>
+    <!-- Productos -->
+    <section id="productos" class="py-12 container mx-auto px-6">
+      <h2 class="text-3xl font-bold text-blue-900 text-center">Nuestros Productos</h2>
+      <p class="text-center mt-2 text-lg">Distribuimos llantas de las marcas más reconocidas y confiables.</p>
       
       <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8 mt-8">
         <div class="bg-white p-6 rounded-2xl shadow-xl border border-gray-200 hover:scale-105 hover:shadow-2xl transition-transform duration-300">
-          <img src="assets/taller.jpeg" alt="Michelin" class="h-24 mx-auto rounded-lg mb-2">
+          <img src="assets/taller.jpeg" alt="Llantas Michelin" class="h-24 mx-auto rounded-lg mb-2">
           <p class="mt-4 text-center font-bold text-gray-900 text-lg">Michelin</p>
         </div>
         <div class="bg-white p-6 rounded-2xl shadow-xl border border-gray-200 hover:scale-105 hover:shadow-2xl transition-transform duration-300">
-          <img src="assets/taller.jpeg" alt="Bridgestone" class="h-24 mx-auto rounded-lg mb-2">
+          <img src="assets/taller.jpeg" alt="Llantas Bridgestone" class="h-24 mx-auto rounded-lg mb-2">
           <p class="mt-4 text-center font-bold text-gray-900 text-lg">Bridgestone</p>
         </div>
         <div class="bg-white p-6 rounded-2xl shadow-xl border border-gray-200 hover:scale-105 hover:shadow-2xl transition-transform duration-300">
-          <img src="assets/taller.jpeg" alt="Goodyear" class="h-24 mx-auto rounded-lg mb-2">
+          <img src="assets/taller.jpeg" alt="Llantas Goodyear" class="h-24 mx-auto rounded-lg mb-2">
           <p class="mt-4 text-center font-bold text-gray-900 text-lg">Goodyear</p>
         </div>
       </div>
     </section>
 
     <!-- Servicios -->
-    <section id="servicios" class="bg-gradient-to-r from-gray-900 via-gray-800 to-gray-700 py-12 shadow-inner"> <!-- Espacio vertical reducido -->
+    <section id="servicios" class="bg-gradient-to-r from-gray-900 via-gray-800 to-gray-700 py-12 shadow-inner">
       <div class="container mx-auto px-6">
-  <h2 class="text-3xl font-bold text-white text-center">Nuestros servicios</h2>
+        <h2 class="text-3xl font-bold text-white text-center">Nuestros Servicios</h2>
         <ul class="mt-6 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 text-lg">
-    <li class="bg-gray-800 text-white p-4 rounded-lg shadow">Venta y cambio de llantas</li>
-    <li class="bg-gray-800 text-white p-4 rounded-lg shadow">Alineación y balanceo</li>
-    <li class="bg-gray-800 text-white p-4 rounded-lg shadow">Cambio de frenos</li>
-    <li class="bg-gray-800 text-white p-4 rounded-lg shadow">Servicio de suspensión</li>
-    <li class="bg-gray-800 text-white p-4 rounded-lg shadow">Cambio de aceite</li>
+          <li class="bg-gray-800 text-white p-4 rounded-lg shadow">Venta y cambio de llantas</li>
+          <li class="bg-gray-800 text-white p-4 rounded-lg shadow">Alineación y balanceo</li>
+          <li class="bg-gray-800 text-white p-4 rounded-lg shadow">Cambio de frenos</li>
+          <li class="bg-gray-800 text-white p-4 rounded-lg shadow">Servicio de suspensión</li>
+          <li class="bg-gray-800 text-white p-4 rounded-lg shadow">Cambio de aceite</li>
         </ul>
       </div>
     </section>
 
-    <!-- Visítanos -->
-    <section id="cotizacion" class="py-10 container mx-auto px-6 text-center"> <!-- Espacio vertical reducido -->
-  <h2 class="text-3xl font-bold text-blue-900">Solicita tu cotización</h2>
-    <a href="https://wa.me/525540394994?text=Hola%2C%20quiero%20una%20cotizaci%C3%B3n%20para%20llantas%20o%20suspensi%C3%B3n" target="_blank" class="mt-4 inline-block bg-green-600 text-white px-6 py-3 rounded-xl shadow hover:bg-yellow-300 hover:text-green-900 transition duration-300 ml-2">
-      <svg class="inline h-5 w-5 mr-2 align-text-bottom" viewBox="0 0 32 32" fill="currentColor"><path d="M16 3C9.373 3 4 8.373 4 15c0 2.385.832 4.58 2.236 6.393L4 29l7.824-2.05A12.94 12.94 0 0016 27c6.627 0 12-5.373 12-12S22.627 3 16 3zm0 22c-1.7 0-3.36-.33-4.92-.98l-.35-.15-4.65 1.22 1.24-4.53-.23-.36C6.34 18.36 6 16.7 6 15c0-5.514 4.486-10 10-10s10 4.486 10 10-4.486 10-10 10zm5.07-7.75c-.28-.14-1.65-.81-1.9-.9-.25-.09-.43-.14-.61.14-.18.28-.7.9-.86 1.08-.16.18-.32.2-.6.07-.28-.14-1.18-.44-2.25-1.4-.83-.74-1.39-1.65-1.55-1.93-.16-.28-.02-.43.12-.57.13-.13.28-.34.42-.51.14-.17.18-.29.28-.48.09-.19.05-.36-.02-.5-.07-.14-.61-1.47-.84-2.01-.22-.53-.45-.46-.61-.47-.16-.01-.35-.01-.54-.01-.19 0-.5.07-.76.34-.26.27-1 1-.99 2.43.01 1.43 1.03 2.81 1.18 3 .15.19 2.03 3.1 4.93 4.22.69.3 1.23.48 1.65.61.69.22 1.32.19 1.81.12.55-.08 1.65-.67 1.88-1.32.23-.65.23-1.2.16-1.32-.07-.12-.25-.19-.53-.33z"/></svg>
-      WhatsApp
-    </a>
-    <div class="mt-12">
-  <h2 class="text-3xl font-bold text-blue-900">Visítanos en</h2>
-  <p class="mt-4 text-lg">📍 Dirección: Armada de México MZA E LTE 14/2 , FRACCIONAMIENTO, Popular Emiliano Zapata, Coyoacán, 04919 Ciudad de México</p>
-  <p class="text-lg">📞 Teléfono: <a href="tel:+525540394994" class="text-blue-700 font-semibold">+52 5540394994</a></p>
-    <a href="https://maps.app.goo.gl/kSG56MhgFhVbC5DWA" target="_blank" class="mt-6 mb-10 inline-block bg-blue-800 text-white px-6 py-3 rounded-xl shadow hover:bg-yellow-300 hover:text-blue-900 transition duration-300">
-        <svg class="inline h-5 w-5 mr-2 align-text-bottom" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5A2.5 2.5 0 1 1 12 6a2.5 2.5 0 0 1 0 5.5z"/></svg>
-        Ver en Google Maps
+    <!-- Cotización -->
+    <section id="cotizacion" class="py-10 container mx-auto px-6 text-center">
+      <h2 class="text-3xl font-bold text-blue-900">Solicita tu cotización</h2>
+      <a href="https://wa.me/525540394994?text=Hola%2C%20quiero%20una%20cotizaci%C3%B3n%20para%20llantas%20o%20suspensi%C3%B3n" 
+         target="_blank" aria-label="Abrir WhatsApp para cotización"
+         class="mt-4 inline-block bg-green-600 text-white px-6 py-3 rounded-xl shadow hover:bg-yellow-300 hover:text-green-900 transition duration-300 ml-2">
+        <svg aria-hidden="true" class="inline h-5 w-5 mr-2 align-text-bottom" viewBox="0 0 32 32" fill="currentColor">
+          <path d="M16 3C9.373 3 4 8.373 4 15c0 2.385.832 4.58 2.236 6.393L4 29l7.824-2.05A12.94 12.94 0 0016 27c6.627 0 12-5.373 12-12S22.627 3 16 3zm0 22c-1.7 0-3.36-.33-4.92-.98l-.35-.15-4.65 1.22 1.24-4.53-.23-.36C6.34 18.36 6 16.7 6 15c0-5.514 4.486-10 10-10s10 4.486 10 10-4.486 10-10 10zm5.07-7.75c-.28-.14-1.65-.81-1.9-.9-.25-.09-.43-.14-.61.14-.18.28-.7.9-.86 1.08-.16.18-.32.2-.6.07-.28-.14-1.18-.44-2.25-1.4-.83-.74-1.39-1.65-1.55-1.93-.16-.28-.02-.43.12-.57.13-.13.28-.34.42-.51.14-.17.18-.29.28-.48.09-.19.05-.36-.02-.5-.07-.14-.61-1.47-.84-2.01-.22-.53-.45-.46-.61-.47-.16-.01-.35-.01-.54-.01-.19 0-.5.07-.76.34-.26.27-1 1-.99 2.43.01 1.43 1.03 2.81 1.18 3 .15.19 2.03 3.1 4.93 4.22.69.3 1.23.48 1.65.61.69.22 1.32.19 1.81.12.55-.08 1.65-.67 1.88-1.32.23-.65.23-1.2.16-1.32-.07-.12-.25-.19-.53-.33z"/>
+        </svg>
+        WhatsApp
       </a>
-    </div>
-
-    <!-- Sección final (antes footer) -->
-    <section class="w-full bg-gradient-to-r from-gray-900 via-gray-800 to-gray-700 text-white py-3 text-center shadow-inner">
-      <p class="text-lg">&copy; 2025 Tire Service | Todos los derechos reservados</p>
+      
+      <div class="mt-12">
+        <h2 class="text-3xl font-bold text-blue-900">Visítanos en</h2>
+        <p class="mt-4 text-lg">📍 Armada de México MZA E LTE 14/2, Popular Emiliano Zapata, Coyoacán, 04919 Ciudad de México</p>
+        <p class="text-lg">📞 Teléfono: <a href="tel:+525540394994" class="text-blue-700 font-semibold">+52 5540394994</a></p>
+        <a href="https://maps.app.goo.gl/kSG56MhgFhVbC5DWA" target="_blank" aria-label="Abrir ubicación en Google Maps"
+           class="mt-6 mb-10 inline-block bg-blue-800 text-white px-6 py-3 rounded-xl shadow hover:bg-yellow-300 hover:text-blue-900 transition duration-300">
+          <svg aria-hidden="true" class="inline h-5 w-5 mr-2 align-text-bottom" viewBox="0 0 24 24" fill="currentColor">
+            <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5A2.5 2.5 0 1 1 12 6a2.5 2.5 0 0 1 0 5.5z"/>
+          </svg>
+          Ver en Google Maps
+        </a>
+      </div>
     </section>
+
+    <!-- Footer -->
+    <footer class="w-full bg-gradient-to-r from-gray-900 via-gray-800 to-gray-700 text-white py-3 text-center shadow-inner">
+      <p class="text-lg">&copy; 2025 Tire Service | Todos los derechos reservados</p>
+    </footer>
+
   </div>
 </body>
 </html>
